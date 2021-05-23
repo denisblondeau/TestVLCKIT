@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B4A12C049210892588EE133 /* Pods_TestVLCKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D53C9FA1441C7F931635FD /* Pods_TestVLCKIT.framework */; };
+		9214F2FC265ADA730061CD3F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 9214F2FB265ADA730061CD3F /* Readme.md */; };
 		9251001826582E2600B605ED /* VLCPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9251001726582E2600B605ED /* VLCPlayer.swift */; };
 		927D7DCD2655696600B6A6E5 /* TestVLCKITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D7DCC2655696600B6A6E5 /* TestVLCKITApp.swift */; };
 		927D7DCF2655696600B6A6E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D7DCE2655696600B6A6E5 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* Begin PBXFileReference section */
 		50D53C9FA1441C7F931635FD /* Pods_TestVLCKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestVLCKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54B6EC9D9F338161918A1CB4 /* Pods-TestVLCKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVLCKIT.release.xcconfig"; path = "Target Support Files/Pods-TestVLCKIT/Pods-TestVLCKIT.release.xcconfig"; sourceTree = "<group>"; };
+		9214F2FB265ADA730061CD3F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		9251001726582E2600B605ED /* VLCPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLCPlayer.swift; sourceTree = "<group>"; };
 		927D7DC92655696600B6A6E5 /* TestVLCKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVLCKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		927D7DCC2655696600B6A6E5 /* TestVLCKITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVLCKITApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		927D7DC02655696600B6A6E5 = {
 			isa = PBXGroup;
 			children = (
+				9214F2FB265ADA730061CD3F /* Readme.md */,
 				927D7DCB2655696600B6A6E5 /* TestVLCKIT */,
 				927D7DCA2655696600B6A6E5 /* Products */,
 				481FCE8E206ABBF7406AE3C3 /* Pods */,
@@ -159,6 +162,7 @@
 			files = (
 				927D7DD42655696700B6A6E5 /* Preview Assets.xcassets in Resources */,
 				927D7DD12655696700B6A6E5 /* Assets.xcassets in Resources */,
+				9214F2FC265ADA730061CD3F /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
