@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		91EB5BA632A9221FE0838DAB2969DF72 /* VLCKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A4E4C5E14A707D2CA172B4DBB1F673BB /* Build configuration list for PBXAggregateTarget "VLCKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = VLCKit;
+			productName = VLCKit;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6F23666ADDC787B43802E140B3F4ECAC /* Pods-TestVLCKIT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F56997341FB1EB3B3FE063645C46915 /* Pods-TestVLCKIT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D587EDBCD9EE707C01705386E6AC386 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		A79624D8B144F949C97D2A1CE214F95D /* Pods-TestVLCKIT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7E1AE0AA712D441ED522A8D179EC8A /* Pods-TestVLCKIT-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36CE55CE68297F298900F00A52B9993E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91EB5BA632A9221FE0838DAB2969DF72;
+			remoteInfo = VLCKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E228AFC89A7566B952718D993723AA /* Pods-TestVLCKIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestVLCKIT.debug.xcconfig"; sourceTree = "<group>"; };
+		0BA3C47040B4425381B44F3CBD071F6E /* Pods-TestVLCKIT-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestVLCKIT-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E7E1AE0AA712D441ED522A8D179EC8A /* Pods-TestVLCKIT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestVLCKIT-dummy.m"; sourceTree = "<group>"; };
+		0F8D1FBE25B929984575D1495408DC85 /* Pods-TestVLCKIT-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestVLCKIT-frameworks.sh"; sourceTree = "<group>"; };
+		12010FE80956BBD7641D29140557577B /* VLCRendererDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCRendererDiscoverer.h; path = VLCKit.framework/Versions/A/Headers/VLCRendererDiscoverer.h; sourceTree = "<group>"; };
+		1E2B00DD9E39128FD07296CDC7F13B06 /* VLCTranscoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCTranscoder.h; path = VLCKit.framework/Versions/A/Headers/VLCTranscoder.h; sourceTree = "<group>"; };
+		23C3E665DE957D6589C5442D1BE9ADE4 /* Pods-TestVLCKIT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestVLCKIT.modulemap"; sourceTree = "<group>"; };
+		2502F081988EC1D9A25722C0B778D289 /* VLCAudio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCAudio.h; path = VLCKit.framework/Versions/A/Headers/VLCAudio.h; sourceTree = "<group>"; };
+		2A616518136BFA0E5914BB0DCCDDCA9E /* VLCVideoLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCVideoLayer.h; path = VLCKit.framework/Versions/A/Headers/VLCVideoLayer.h; sourceTree = "<group>"; };
+		2D2844E238D06DE1BBF77517C3D0EC5B /* VLCLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCLibrary.h; path = VLCKit.framework/Versions/A/Headers/VLCLibrary.h; sourceTree = "<group>"; };
+		398966535F62BEE8D7B9347C1D02D42E /* Pods_TestVLCKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestVLCKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D110633773C44B37859B4F565F0F17C /* VLCRendererItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCRendererItem.h; path = VLCKit.framework/Versions/A/Headers/VLCRendererItem.h; sourceTree = "<group>"; };
+		4BE79A1D75D3FD66633077931B360658 /* Pods-TestVLCKIT-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestVLCKIT-acknowledgements.plist"; sourceTree = "<group>"; };
+		4D78CBB5DB7A8AF50031E6AC9485B416 /* Pods-TestVLCKIT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestVLCKIT-Info.plist"; sourceTree = "<group>"; };
+		51FDFC9A7AB1D92ACBE1402043B252B6 /* VLCMediaLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaLibrary.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaLibrary.h; sourceTree = "<group>"; };
+		79B1CAE1F4D436AB2BABC8EE319DCAA3 /* VLCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VLCKit.debug.xcconfig; sourceTree = "<group>"; };
+		80BD51B191A4DC109F1E7E7CB94ADB79 /* Pods-TestVLCKIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestVLCKIT.release.xcconfig"; sourceTree = "<group>"; };
+		882758B56B1C3A4C88E96F074FC44D83 /* VLCMediaThumbnailer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaThumbnailer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaThumbnailer.h; sourceTree = "<group>"; };
+		8D52F95767F0CD87E4FEE3A85A1EB39E /* VLCMediaDiscoverer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaDiscoverer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaDiscoverer.h; sourceTree = "<group>"; };
+		8F56997341FB1EB3B3FE063645C46915 /* Pods-TestVLCKIT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestVLCKIT-umbrella.h"; sourceTree = "<group>"; };
+		97D8EA8DEDF2F3F2AD0CD384D956F747 /* VLCKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCKit.h; path = VLCKit.framework/Versions/A/Headers/VLCKit.h; sourceTree = "<group>"; };
+		97F5633412A79174E48794D97F5BDA28 /* VLCMediaPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaPlayer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaPlayer.h; sourceTree = "<group>"; };
+		99ED70B83CEF53A498D37F2180FDD1FC /* VLCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VLCKit.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC3606F014C77A01EEFADA9425CA423D /* VLCMedia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMedia.h; path = VLCKit.framework/Versions/A/Headers/VLCMedia.h; sourceTree = "<group>"; };
+		BB5F5AAAFE0EF873753F780F506629D7 /* VLCStreamOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCStreamOutput.h; path = VLCKit.framework/Versions/A/Headers/VLCStreamOutput.h; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C4ABF2E8048CE150058EA8218FA6A456 /* VLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VLCKit.framework; sourceTree = "<group>"; };
+		CAADB4F9529432F044593DF23E0D5068 /* VLCStreamSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCStreamSession.h; path = VLCKit.framework/Versions/A/Headers/VLCStreamSession.h; sourceTree = "<group>"; };
+		D3B9983165F87BEA307E0CE1524B3F64 /* VLCVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCVideoView.h; path = VLCKit.framework/Versions/A/Headers/VLCVideoView.h; sourceTree = "<group>"; };
+		E323AE88D4BDD2528114C989E4B2DF28 /* VLCMediaList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaList.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaList.h; sourceTree = "<group>"; };
+		F021A0785535759CC7C3BF5B2B1F0DBC /* VLCTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCTime.h; path = VLCKit.framework/Versions/A/Headers/VLCTime.h; sourceTree = "<group>"; };
+		F2EC6236917FD7F8BD16EB1079DFE6E8 /* VLCMediaListPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VLCMediaListPlayer.h; path = VLCKit.framework/Versions/A/Headers/VLCMediaListPlayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D192C2BFDEC0127E00C51D256CFED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D587EDBCD9EE707C01705386E6AC386 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88E840EA416BA1A0ACDB6ABA87A45B7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABB5A1686A3B9C76AF11CB46730FE903 /* VLCKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A92756C788C4D9A14D6202355F745035 /* Pods-TestVLCKIT */ = {
+			isa = PBXGroup;
+			children = (
+				23C3E665DE957D6589C5442D1BE9ADE4 /* Pods-TestVLCKIT.modulemap */,
+				0BA3C47040B4425381B44F3CBD071F6E /* Pods-TestVLCKIT-acknowledgements.markdown */,
+				4BE79A1D75D3FD66633077931B360658 /* Pods-TestVLCKIT-acknowledgements.plist */,
+				0E7E1AE0AA712D441ED522A8D179EC8A /* Pods-TestVLCKIT-dummy.m */,
+				0F8D1FBE25B929984575D1495408DC85 /* Pods-TestVLCKIT-frameworks.sh */,
+				4D78CBB5DB7A8AF50031E6AC9485B416 /* Pods-TestVLCKIT-Info.plist */,
+				8F56997341FB1EB3B3FE063645C46915 /* Pods-TestVLCKIT-umbrella.h */,
+				03E228AFC89A7566B952718D993723AA /* Pods-TestVLCKIT.debug.xcconfig */,
+				80BD51B191A4DC109F1E7E7CB94ADB79 /* Pods-TestVLCKIT.release.xcconfig */,
+			);
+			name = "Pods-TestVLCKIT";
+			path = "Target Support Files/Pods-TestVLCKIT";
+			sourceTree = "<group>";
+		};
+		ABB5A1686A3B9C76AF11CB46730FE903 /* VLCKit */ = {
+			isa = PBXGroup;
+			children = (
+				2502F081988EC1D9A25722C0B778D289 /* VLCAudio.h */,
+				97D8EA8DEDF2F3F2AD0CD384D956F747 /* VLCKit.h */,
+				2D2844E238D06DE1BBF77517C3D0EC5B /* VLCLibrary.h */,
+				AC3606F014C77A01EEFADA9425CA423D /* VLCMedia.h */,
+				8D52F95767F0CD87E4FEE3A85A1EB39E /* VLCMediaDiscoverer.h */,
+				51FDFC9A7AB1D92ACBE1402043B252B6 /* VLCMediaLibrary.h */,
+				E323AE88D4BDD2528114C989E4B2DF28 /* VLCMediaList.h */,
+				F2EC6236917FD7F8BD16EB1079DFE6E8 /* VLCMediaListPlayer.h */,
+				97F5633412A79174E48794D97F5BDA28 /* VLCMediaPlayer.h */,
+				882758B56B1C3A4C88E96F074FC44D83 /* VLCMediaThumbnailer.h */,
+				12010FE80956BBD7641D29140557577B /* VLCRendererDiscoverer.h */,
+				3D110633773C44B37859B4F565F0F17C /* VLCRendererItem.h */,
+				BB5F5AAAFE0EF873753F780F506629D7 /* VLCStreamOutput.h */,
+				CAADB4F9529432F044593DF23E0D5068 /* VLCStreamSession.h */,
+				F021A0785535759CC7C3BF5B2B1F0DBC /* VLCTime.h */,
+				1E2B00DD9E39128FD07296CDC7F13B06 /* VLCTranscoder.h */,
+				2A616518136BFA0E5914BB0DCCDDCA9E /* VLCVideoLayer.h */,
+				D3B9983165F87BEA307E0CE1524B3F64 /* VLCVideoView.h */,
+				E16259E7D92A232C8736B478EAEA8F34 /* Frameworks */,
+				C4A0B0AE4C99DCA5C7729B5D57FA5C91 /* Support Files */,
+			);
+			path = VLCKit;
+			sourceTree = "<group>";
+		};
+		BE8FEF6510BFEDFC238C5449B818568A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A92756C788C4D9A14D6202355F745035 /* Pods-TestVLCKIT */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4A0B0AE4C99DCA5C7729B5D57FA5C91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79B1CAE1F4D436AB2BABC8EE319DCAA3 /* VLCKit.debug.xcconfig */,
+				99ED70B83CEF53A498D37F2180FDD1FC /* VLCKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VLCKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				88E840EA416BA1A0ACDB6ABA87A45B7A /* Pods */,
+				E31D4B2FD6EB5248BF6401D6607007C8 /* Products */,
+				BE8FEF6510BFEDFC238C5449B818568A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E16259E7D92A232C8736B478EAEA8F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4ABF2E8048CE150058EA8218FA6A456 /* VLCKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E31D4B2FD6EB5248BF6401D6607007C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398966535F62BEE8D7B9347C1D02D42E /* Pods_TestVLCKIT.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		189822EB79630ADD8067C470EAABD30F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F23666ADDC787B43802E140B3F4ECAC /* Pods-TestVLCKIT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E2D89CF9E5AFD8963614CD636266273 /* Pods-TestVLCKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0FF81CC6C71EB57B11C95FF961D02C1 /* Build configuration list for PBXNativeTarget "Pods-TestVLCKIT" */;
+			buildPhases = (
+				189822EB79630ADD8067C470EAABD30F /* Headers */,
+				D4DD6813D2B54C14AC5C99E6D3E0E9F7 /* Sources */,
+				C1D192C2BFDEC0127E00C51D256CFED1 /* Frameworks */,
+				A4A4B29C2DECCB752BF8EFF1F4F17C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6F6377E19B8F6A865AB87CFBE56BA0F /* PBXTargetDependency */,
+			);
+			name = "Pods-TestVLCKIT";
+			productName = "Pods-TestVLCKIT";
+			productReference = 398966535F62BEE8D7B9347C1D02D42E /* Pods_TestVLCKIT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E31D4B2FD6EB5248BF6401D6607007C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E2D89CF9E5AFD8963614CD636266273 /* Pods-TestVLCKIT */,
+				91EB5BA632A9221FE0838DAB2969DF72 /* VLCKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4A4B29C2DECCB752BF8EFF1F4F17C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4DD6813D2B54C14AC5C99E6D3E0E9F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79624D8B144F949C97D2A1CE214F95D /* Pods-TestVLCKIT-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6F6377E19B8F6A865AB87CFBE56BA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VLCKit;
+			target = 91EB5BA632A9221FE0838DAB2969DF72 /* VLCKit */;
+			targetProxy = 36CE55CE68297F298900F00A52B9993E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		82E73717A2562031D5E1F4D85DD1A982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8A9AA9816C467E4EE5B0F92A1A1E3806 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B1CAE1F4D436AB2BABC8EE319DCAA3 /* VLCKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A547065849351323A4179EB81E0706BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80BD51B191A4DC109F1E7E7CB94ADB79 /* Pods-TestVLCKIT.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestVLCKIT/Pods-TestVLCKIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestVLCKIT/Pods-TestVLCKIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0A19E3D475CF8C46574839B09B64431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E228AFC89A7566B952718D993723AA /* Pods-TestVLCKIT.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestVLCKIT/Pods-TestVLCKIT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestVLCKIT/Pods-TestVLCKIT.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D39E634FC2CFF97419EB3682DD2807FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E8ACB43D833FEAB5DF310658184B3E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ED70B83CEF53A498D37F2180FDD1FC /* VLCKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39E634FC2CFF97419EB3682DD2807FA /* Debug */,
+				82E73717A2562031D5E1F4D85DD1A982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4E4C5E14A707D2CA172B4DBB1F673BB /* Build configuration list for PBXAggregateTarget "VLCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9AA9816C467E4EE5B0F92A1A1E3806 /* Debug */,
+				E8ACB43D833FEAB5DF310658184B3E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0FF81CC6C71EB57B11C95FF961D02C1 /* Build configuration list for PBXNativeTarget "Pods-TestVLCKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A19E3D475CF8C46574839B09B64431 /* Debug */,
+				A547065849351323A4179EB81E0706BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
