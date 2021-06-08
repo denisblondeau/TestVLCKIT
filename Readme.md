@@ -1,7 +1,7 @@
 
-This simple demo app shows how you can interact between VLCKit and SwiftUI.
+This simple demo app shows how you can use VLCKit within SwiftUI.
 
-- Requires that you add VLCKIT Cocoapod to this app before you can launch it (see: https://code.videolan.org/videolan/VLCKit).
+- Required: You need to add VLCKIT Cocoapod to this app before you can launch it (see: https://code.videolan.org/videolan/VLCKit).
 
 
 Test environment:
